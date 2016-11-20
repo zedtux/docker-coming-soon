@@ -11,6 +11,8 @@ allowing you to run it easily.
 
 Here is an example of the result:
 
+![coming-soon](https://cloud.githubusercontent.com/assets/478564/20465730/cee8570e-af64-11e6-996c-bb8ef24b2bdd.png)
+
 # Usage
 
 You have the following environment variables which allow you to configure the
