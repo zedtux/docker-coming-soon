@@ -6,7 +6,8 @@ I took [this free template](http://www.creative-tim.com/product/coming-sssoon-pa
 made by [Creative Tim](http://www.creative-tim.com/).
 I have cleaned the code and written an interpolation script which allows you to
 configure it quickly using environment variables.
-Finally I put this in a Docker container allowing you to run it easily.
+Finally I put this in the Docker image [zedtux/docker-coming-soon](https://hub.docker.com/r/zedtux/docker-coming-soon/)
+allowing you to run it easily.
 
 Here is an example of the result:
 
