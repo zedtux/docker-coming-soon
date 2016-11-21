@@ -25,6 +25,7 @@ coming soon page:
 | CATCHY_PHRASE | The sentence under the product name  | CATCHY_PHRASE="Awesome App is what you were looking for since a while." |
 | FACEBOOK_URL  | Facebook button URL to your page     | FACEBOOK_URL="https://www.facebook.com/awesomeapp"                     |
 | TWITTER_URL   | Twitter button URL to your page      | TWITTER_URL="https://www.twitter.com/awesomeapp"                       |
+| GITHUB_URL    | Github button URL to your page       | GITHUB_URL="https://www.github.com/awesomeapp"                         |
 | EMAIL         | Email to be used for the Email button | EMAIL="me@mydomain.com"                                                |
 
 Run the image with the following:

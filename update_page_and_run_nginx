@@ -54,6 +54,18 @@ else
 fi;
 sed -i "s~ENV_TWITTER_BUTTON~$TWITTER_BUTTON~" "$BASE_DIR/index.html"
 
+# Github button
+if [[ -z "$GITHUB_URL" ]]
+then
+  echo "WARNING: No Github URL given, removing the button."
+  GITHUB_BUTTON=''
+  echo "Removing the Github button ..."
+else
+  GITHUB_BUTTON="<li><a href=\"$GITHUB_URL\"><i class=\"fa fa-github\"></i> Follow</a></li>"
+  echo "Updating the Github button ..."
+fi;
+sed -i "s~ENV_GITHUB_BUTTON~$GITHUB_BUTTON~" "$BASE_DIR/index.html"
+
 # Email button
 if [[ -z "$EMAIL" ]]
 then
